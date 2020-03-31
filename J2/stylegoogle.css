@@ -1,7 +1,6 @@
 body{
 	font-family: Arial;
-	height: 100%;
-	width: auto;
+	margin:0px;
 }
 
 p{
@@ -9,6 +8,7 @@ p{
 	font-size: 12px;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 32px;
 }
 
 footer{
@@ -16,8 +16,10 @@ footer{
 	padding-bottom: 3px;
 	background-color: #EEE;
 	height: 60px;
-	margin-top: 70px;
 	font-size: 15px;
+	position: sticky;
+	left:0;
+	bottom: 0;
 }
 
 ul{
@@ -45,8 +47,8 @@ a:hover{
 }
 
 #container{
-	width: 100%;
-	min-height: 600px;
+	max-width: 700px;
+	margin: auto;
 }
 
 #logo{
@@ -57,10 +59,6 @@ a:hover{
 }
 
 .search-box{
-	position: absolute;
-	top:47%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	background: transparent;
 	height: 25px;
 	border: 1px solid #dfe1e5;
@@ -97,11 +95,12 @@ a:hover{
 	font-size: 16px;
 	transition: 0.4s;
 	line-height: 25px;
-	width: 500px;
+	width: 600px;
 }
 #search-buttons{
-	
-	margin-top: 120px;
+	text-align: center;
+	margin-top: 110px;
+
 
 }
 
