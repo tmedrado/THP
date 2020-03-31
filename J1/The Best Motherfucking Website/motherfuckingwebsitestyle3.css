@@ -1,0 +1,22 @@
+body{
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	text-align: justify;
+
+}
+
+#container{
+
+	align-content: center;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 30px;
+	font: Arial;
+
+}
+
+#cattext{
+	margin-bottom: 150px;
+}
